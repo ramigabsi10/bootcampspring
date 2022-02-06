@@ -10,7 +10,7 @@ public class HomeController {
 	public String info() {
 		return "home/info"; // le nom de la vue sous template /home
 	}
-	@RequestMapping("/affichage") //!
+	@RequestMapping("/affichage") // %
 	public String affichage() {
 		return "home/affichage";
 	}
